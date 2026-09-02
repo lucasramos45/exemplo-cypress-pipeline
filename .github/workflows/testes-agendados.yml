@@ -1,8 +1,8 @@
 name: Testes Cypress Agendados
 on:
- workflow_dispatch:
- schedule:
- - cron: '38 20 * * *'
+  workflow_dispatch:
+  schedule:
+    - cron: '38 23 * * *'   # 20:38 America/Sao_Paulo (UTC-3)
  timezone: 'America/Sao_Paulo'
 jobs:
  testes-e2e:
