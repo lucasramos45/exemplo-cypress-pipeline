@@ -3,7 +3,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'   # 21:00 America/Sao_Paulo (UTC-3)
- timezone: 'America/Sao_Paulo'
 jobs:
  testes-e2e:
  runs-on: ubuntu-latest
